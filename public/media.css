@@ -1,0 +1,30 @@
+@media screen and ( max-width:992px){
+    .Email,.pass,.username{
+        border: 4px solid rgb(158, 65, 183);
+        background: none;
+        border-radius: 5px;
+        color: white;
+        height: 53px;
+        width: 50%;
+    }
+}
+@media screen and ( max-width:767px){
+    .Email,.pass,.username{
+        border: 4px solid rgb(158, 65, 183);
+        background: none;
+        border-radius: 5px;
+        color: white;
+        height: 53px;
+        width: 60%;
+    }
+}
+@media screen and ( max-width:568px){
+    .Email,.pass,.username{
+        border: 4px solid rgb(158, 65, 183);
+        background: none;
+        border-radius: 5px;
+        color: white;
+        height: 53px;
+        width: 70%;
+    }
+}

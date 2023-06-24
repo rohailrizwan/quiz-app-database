@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Lora&family=Pacifico&family=Roboto+Condensed:ital@1&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(32, 16, 145, 0.7) 42%, rgb(158, 65, 183,0.46) 69%);
+    height: 100%;
+}
+
+
+.Navigation {
+    box-shadow: 3px 5px 11px rgb(137, 72, 151);
+    height: 100px;
+}
+
+.quiz-head {
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    font-weight: 300;
+    color: black;
+    text-shadow: -6px 6px 5px snow;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.htmlbtn{
+    background-color: blueviolet;
+    color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 2px blueviolet;
+}
+.htmlbtn:hover{
+    background-color: blueviolet !important;
+    color: white !important;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.cssbtn{
+    background-color: rgb(255, 10, 10);
+    color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 2px blueviolet;
+}
+.cssbtn:hover{
+    background-color: rgb(255, 10, 10) !important;
+    color: white !important;
+}
+.jsbtn{
+    background-color: rgb(211, 249, 5);
+    color: white;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 2px blueviolet;
+}
+.jsbtn:hover{
+    background-color: rgb(211, 249, 5) !important;
+    color: white !important;
+}
+.attempt-quiz{
+    font-size: 45px;
+    font-weight: 500;
+    color: darkblue;
+    font-family: 'Pacifico', cursive;
+}
+.footer-sec {
+    background-color: rgba(137, 72, 151, 0.68);
+    color: white;
+    text-align: center;
+}
+
+#htmlques{
+    display: none;
+}
+#myquestion{
+    color: white;
+    margin-bottom: 20px;
+}
+.myoption{
+    background-color: rgb(137, 72, 151);
+    color: white;
+    font-size: 18px;
+    border: 2px solid rgb(137, 72, 151);
+    text-align: left;
+    border: none;
+}
+.myoption:hover{
+    background-color: rgb(137, 72, 151) !important;
+    color: white !important;
+    border: none;
+}
+.no-of-ques {
+    color: blueviolet;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 37px;
+}
+#result{
+    display: none;
+}
+.hide{
+    display: none !important;
+}
+.testscore{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: rebeccapurple;
+}
+.playbtn{
+    background-color: #004eff;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 7%;
+    font-size: 20px
+}
+@media screen and (max-width:992px) {
+    .htmlbtn,.cssbtn,.jsbtn{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:576px){
+
+#myquestion{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+}
+@media screen and (max-width:400px){
+    .myoption{
+        width: 100% !important;
+    }
+}
